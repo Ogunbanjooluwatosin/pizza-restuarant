@@ -1,0 +1,137 @@
+body{
+     padding:0;
+     margin:0;
+     font-family: "Open Sans",Arial, Helvetica, sans-serif;
+}
+
+
+body{
+     background-image: url(images/chad-montano-MqT0asuoIcU-unsplash.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+/* navbar */
+.navbar{
+     background-color: black;
+     height:100px;
+     position:relative;
+     top:-20px;
+     justify-content: space-between;
+}
+
+.navbar>img{
+     width:100px;
+     height:auto;
+     position:relative;
+     top:-77px;
+     left:100px;
+     
+
+}
+
+
+
+.navbar>ul{
+     display:flex;
+     gap:30px;
+     text-align: center;
+     justify-content:center;
+     position:relative;
+     top:40px;
+}
+
+.navbar>button{
+     position:relative;
+     left:1400px;
+     top:-112px;
+     background-color: #4CAF50; /* Dark green background color */
+     border: none;
+     color: white; /* Text color */
+     padding: 12px 24px; /* Padding */
+     font-size: 10px; /* Font size */
+     border-radius: 6px; /* Rounded corners */
+     transition: background-color 0.3s ease; /* Smooth transition */
+     cursor: pointer;
+}
+
+
+
+.navbar>button>a{
+     text-decoration: none;
+     color:white;
+}
+
+
+
+.navbar>ul>li{
+     list-style: none;
+     margin:10px;
+     padding:20px;
+     position:relative;
+     top:-30px;
+     font-size: 16px;
+     font-weight: 700;
+}
+.navbar>ul>li>a{
+     text-decoration: none;
+     color:#4CAF50;
+}
+
+
+/* content */
+.content{
+     position:absolute;
+     left:50%;
+     top:50%;
+     transform: translate(-50%,-50%);
+     
+}
+.content>.header{
+     font-size:100px;
+     display: inline;
+     white-space: nowrap;
+     font-weight: 900;
+     padding:5px;
+     color: white;
+}
+.content>p{
+     font-size:30px;
+     position:relative;
+     left:30%;
+     font-weight: 600;
+     color:white
+}
+
+.content>.button{
+     position:relative;
+     left:460px;
+     margin:10px;
+     
+}
+.content>.button>button{
+     background-color: #4CAF50; /* Dark green background color */
+     border: none;
+     color: white; /* Text color */
+     padding: 12px 24px; /* Padding */
+     font-size:10px; /* Font size */
+     border-radius: 6px; /* Rounded corners */
+     transition: background-color 0.3s ease; /* Smooth transition */
+     cursor: pointer;
+     gap:30px;
+     font-weight: 700;
+}
+
+
+.content>.button>.btn-1{
+     margin:10px;
+     padding:10px;
+}
+
+.content>.button>.btn-2{
+     margin:10px;
+     padding:10px;
+}
+
+
+
