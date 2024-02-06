@@ -72,7 +72,7 @@ CSS3: Utilized for styling and layout design.
 Contributing
 We welcome contributions from the community to improve Crust & Crumb Pizzeria! If you have any ideas for new features or enhancements, feel free to open an issue or submit a pull request.
 **Project Demo Picture**
-**Home Page**
+
 ![index.html](https://drive.google.com/uc?export=download&id=1WajMoW7Jv5RQljW7389gbzeR9u7AaLkt]
 
 
