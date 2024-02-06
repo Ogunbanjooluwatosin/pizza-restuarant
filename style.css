@@ -9,6 +9,7 @@ body{
      background-image: url(images/chad-montano-MqT0asuoIcU-unsplash.jpg);
      background-size: cover;
      background-repeat: no-repeat;
+     background-attachment: fixed;
 }
 
 /* navbar */
@@ -135,3 +136,166 @@ body{
 
 
 
+
+
+/* media queries */
+
+
+/* Media query for small devices (phones) */
+@media screen and (max-width:767px){
+     body{
+          background-attachment:fixed;
+          background-size: cover;
+          overflow: hidden;
+     }
+
+
+     .navbar{
+          height:75px;
+          overflow: hidden;
+          width:100%;
+     }
+
+     .navbar>ul>li{
+          font-size: 8px;
+          margin:-5px;
+          padding:-2px;
+          
+     }
+     .navbar>ul{
+          gap:5px;
+          position:relative;
+          top:50px;
+     }
+
+     .navbar>img{
+          left:40px;
+          width:70px;
+          top:-50px;
+     }
+
+     .navbar>ul>li{
+          font-weight:900;
+     }
+
+
+
+     .navbar>button{
+          top:80px;
+          right:700px;
+          width:100px;
+          height:20px;
+     }
+
+     .navbar>button>a{
+          font-size: 6px;
+          position: relative;
+          top:-10px;
+          display: block;
+          font-weight: 900;
+     }
+
+
+     .content>.header{
+          font-size:50px;
+          display:inline-block;
+     }
+
+     .content>.title{
+          font-size: 15px;
+     }
+     .navbar{
+          width:100%;
+     }
+
+     .content>.button{
+          position:relative;
+          left:200px;
+     }
+
+
+
+
+}
+
+
+
+
+
+/* Media query for medium devices (tablets) */
+
+@media screen and (min-width:768px) and (max-width:1025px){
+     body{
+          background-attachment:fixed;
+          background-size: cover;
+          overflow: hidden;
+     }
+
+
+     .navbar{
+          height:75px;
+          overflow: hidden;
+          width:100%;
+     }
+
+     .navbar>ul>li{
+          font-size: 8px;
+          margin:-5px;
+          padding:-2px;
+          
+     }
+     .navbar>ul{
+          gap:5px;
+          position:relative;
+          top:50px;
+     }
+
+     .navbar>img{
+          left:30px;
+          width:70px;
+          top:-40px;
+     }
+
+     .navbar>ul>li{
+          font-weight:900;
+     }
+
+
+
+     .navbar>button{
+          top:-60px;
+          left:700px;
+          width:100px;
+          height:20px;
+     }
+
+     .navbar>button>a{
+          font-size: 6px;
+          position: relative;
+          top:-10px;
+          display: block;
+          font-weight: 900;
+     }
+
+
+     .content>.header{
+          font-size:50px;
+          display:inline-block;
+     }
+
+     .content>.title{
+          font-size: 15px;
+     }
+     .navbar{
+          width:100%;
+     }
+
+     .content>.button{
+          position:relative;
+          left:200px;
+     }
+
+
+
+
+}
